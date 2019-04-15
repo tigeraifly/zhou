@@ -1,0 +1,39 @@
+@import"comner.scss";
+@import"reset.scss";
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .wrap-top {
+        width: 100%;
+        height: px2(60px);
+        border-bottom: px2(1px) #eee solid;
+    }
+    .wrap-wrap {
+        width: 100%;
+        ul {
+            width: 100%;
+            height: px2(40px);
+            display: flex;
+            line-height: px2();
+            flex: 1;
+            text-align: center;
+        }
+    }
+}
+
+
+}
