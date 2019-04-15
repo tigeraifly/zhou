@@ -1,0 +1,9 @@
+%full {
+    width: 100%;
+    height: 100%;
+}
+
+$base-font-size:37.5px;
+@function px2($px) {
+    @return $px/$base-font-size*1rem;
+}
